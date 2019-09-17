@@ -1,0 +1,52 @@
+.gamePagePosition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gamePage{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.gameInterface{
+    border: 3px solid #EEEEEE;
+    border-right: none;
+    width: 50%;
+}
+
+.gameInterface, .leaderBoard{
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.leaderBoard{
+    border: 3px solid #EEEEEE;
+    width: 50%;
+}
+
+@media screen and (max-width: 725px){
+    .gamePage{
+      display: block;
+    }
+    .gameInterface{
+        border: 3px solid #EEEEEE;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .leaderBoard{
+        width: 100%;
+    }
+}

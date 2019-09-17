@@ -1,0 +1,87 @@
+.gameInterface{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionBlock{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+flex-wrap: wrap;
+width: 90%
+}
+
+.select{
+display: block;
+padding: 15px;
+font-size: 17px;
+width: 200px;
+background: #CFD8DC;
+outline: none;
+border: none;
+border-radius: 3px;
+}
+
+.inputName{
+display: block;
+padding: 15px;
+font-size: 17px;
+width: 200px;
+background: #F3F3F3;
+color: #000;
+outline: none;
+border: none;
+border-radius: 3px;
+}
+
+.btn{
+display: block;    
+padding: 15px 5px;
+width: 110px;
+background: #7B8D93;
+color: #fff;
+border: none;
+border-radius: 3px;
+outline: none;
+user-select: none;
+cursor: pointer;
+}
+
+.btn:hover{
+background: rgb(95, 109, 113);
+}
+.btn:active{
+    background: rgb(142, 172, 181);
+    }
+    
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.messageText{
+    font-size: 18px;
+    color: rgb(112, 132, 138)
+}
+
+.message{
+margin-top: 20px;
+}
+
+.fieldList{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1350px){
+    .actionBlock{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .select, .inputName, .btn{
+        margin-bottom: 10px;
+    }
+}
