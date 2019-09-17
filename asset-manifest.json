@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/game-cv/static/css/main.0e4055b0.chunk.css",
-    "main.js": "/game-cv/static/js/main.cb1a0e9a.chunk.js",
-    "main.js.map": "/game-cv/static/js/main.cb1a0e9a.chunk.js.map",
+    "main.css": "/game-cv/static/css/main.75eba15f.chunk.css",
+    "main.js": "/game-cv/static/js/main.f41d5ec3.chunk.js",
+    "main.js.map": "/game-cv/static/js/main.f41d5ec3.chunk.js.map",
     "runtime~main.js": "/game-cv/static/js/runtime~main.7169dffb.js",
     "runtime~main.js.map": "/game-cv/static/js/runtime~main.7169dffb.js.map",
     "static/js/2.c87e865f.chunk.js": "/game-cv/static/js/2.c87e865f.chunk.js",
     "static/js/2.c87e865f.chunk.js.map": "/game-cv/static/js/2.c87e865f.chunk.js.map",
     "index.html": "/game-cv/index.html",
-    "precache-manifest.ed61b5a3d8d5c1b541337240c75a4cc4.js": "/game-cv/precache-manifest.ed61b5a3d8d5c1b541337240c75a4cc4.js",
+    "precache-manifest.88c70a18ceb4d5f80bf6e8ea644290b4.js": "/game-cv/precache-manifest.88c70a18ceb4d5f80bf6e8ea644290b4.js",
     "service-worker.js": "/game-cv/service-worker.js",
-    "static/css/main.0e4055b0.chunk.css.map": "/game-cv/static/css/main.0e4055b0.chunk.css.map"
+    "static/css/main.75eba15f.chunk.css.map": "/game-cv/static/css/main.75eba15f.chunk.css.map"
   }
 }
