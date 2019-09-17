@@ -21,7 +21,7 @@ class GameInterface extends Component {
       buttonValue
     } = this.props;
     
-    const disabledBtn = (!(selectValue.length > 0 && inputName.trim().length > 0)) || (!(!(selectValue.length > 0 && inputName.trim().length > 0)) && startGame);
+    const disabledBtn = (!(+selectValue > 0 && inputName.trim().length > 0)) || (!(!(+selectValue > 0 && inputName.trim().length > 0)) && startGame);
     return (
       <div className={s.gameInterface}>
         <div className={s.actionBlock}>
@@ -29,6 +29,7 @@ class GameInterface extends Component {
             className={s.select}
             value={selectValue}
             onChange={handleChangeSelect}
+            disabled={startGame}
           >
             <option defaultValue>Pick game mode</option>
             <option value={gameMode.easyMode.field}>Easy Mode</option>
@@ -41,6 +42,7 @@ class GameInterface extends Component {
             placeholder="Enter your name"
             value={inputName}
             onChange={handleChangeInputName}
+            disabled={startGame}
           />
           <button
             disabled={disabledBtn}
